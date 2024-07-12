@@ -1,5 +1,5 @@
 ## Installing Git on Mac
----
+
 
 1. Download [homebrew](https://brew.sh/)
 
@@ -16,7 +16,7 @@
 <br>
 
 ## **Clone**
----
+
 
 Run `$ git clone`
 
@@ -26,7 +26,7 @@ Run `$ git clone`
 
 ## **File management (VScode "Source Control")**
 
----
+
 
 - **Add files to the staging area:**
     
@@ -46,7 +46,7 @@ Run `$ git clone`
 
 ## Execute commands
 
----
+
 
 - Change to the directory `$ cd "directory name"`
 - Move up one level `$ cd ..`
@@ -65,6 +65,6 @@ Run `$ git clone`
 
 ## Terminal
 
----
+
 
 Clear : `Cmd + K`

@@ -1,6 +1,6 @@
 ## Data Type
 
----
+
 
 | Data Type | Name | Type | Description | Example |
 | --- | --- | --- | --- | --- |
@@ -18,10 +18,11 @@
 | Variable |  |  | Custom name for storing data |  |
 
 
+<br>
 
 ### Variable Naming Rules
 
----
+
 
 - **Letters, numbers, and underscores**: 
     - letters (a-z, A-Z), numbers (0-9), and underscores (_)
