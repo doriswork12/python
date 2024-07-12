@@ -28,6 +28,8 @@
 - [x]  Add some files／change to staging／commit／push
 - [ ]  Think your project topic
 - [x]  Practice to use git
+- [x]  Install extension git graph
+- [x]  Install extension markdown all in one
 
 <br>
 
