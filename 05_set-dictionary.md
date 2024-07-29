@@ -1,0 +1,15 @@
+| Category      | Operation                     | Example                                                        | Input                                   | Output                          |
+|---------------|-------------------------------|----------------------------------------------------------------|-----------------------------------------|---------------------------------|
+| Set           | Create set                    | set={}                                                         |                                         |                                 |
+|               | Check if item exists          | in                                                             | s1={3,4,5}<br>print(3 in s1)<br>print(10 in s1) | True<br>False                    |
+|               | Check if item does not exist  | not in                                                         | s1={3,4,5}<br>print(10 not in s1)       | True                            |
+|               | Intersection                  | &                                                              | s1={3,4,5}<br>s2={4,5,6,7}<br>s3=s1&s2<br>print(s3) | {4,5}                          |
+|               | Union                         | \|                                                             | s1={3,4,5}<br>s2={4,5,6,7}<br>s3=s1\|s2<br>print(s3) | {3, 4, 5, 6, 7}                |
+|               | Difference                    | s1-s2                                                          | s1={3,4,5}<br>s2={4,5,6,7}<br>s3=s1-s2<br>print(s3) | {3}                            |
+|               | Symmetric Difference          | s1^s2                                                          | s1={3,4,5}<br>s2={4,5,6,7}<br>s3=s1^s2<br>print(s3) | {3, 6, 7}                      |
+|               | Convert string to set         | s=set(string)                                                  | s=set("Hello")<br>print(s)              | {'e', 'H', 'l', 'o'}            |
+| Dictionary    | Create dictionary             | dic = {"key1": "value1", "key2": "value2"}                     | dic={"apple":"fruit","bug":"insect"}<br>print(dic["apple"]) | apple                         |
+|               | Modify key-value pair         | dic["key1"]="new value"                                        | dic={"apple":"fruit","bug":"insect"}<br>dic["apple"]="big apple"<br>print(dic["apple"]) | big apple                     |
+|               | Check if key exists           | in<br>not in                                                   | dic={"apple":"fruit","bug":"insect"}<br>print("apple" in dic)  | True                          |
+|               | Delete                        | del                                                            | dic={"apple":"fruit","bug":"insect"}<br>print(dic)<br>del dic["apple"]<br>print(dic) | {'apple': 'fruit', 'bug': 'insect'}<br>{'bug': 'insect'} |
+|               | Generate dictionary from list | dic={x: expression for x in list}                              | dic={x:x*2 for x in [3,4,5]}<br>print(dic) | {3: 6, 4: 8, 5: 10}            |

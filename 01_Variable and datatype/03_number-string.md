@@ -1,5 +1,6 @@
 
 ## Number
+Number types include integers, floats, and less commonly, complex numbers. Integers have no decimal part, floats have a decimal part, and complex numbers have a real and an imaginary part.
 
 | Operation               | Symbol | Input      | Output                |
 |-------------------------|--------|------------|-----------------------|
@@ -18,6 +19,8 @@
 </br>
 
 ## String
+A string is a sequence of characters.<br> 
+Strings can be created using single quotes ('') or double quotes ("").
 
 | Description                         | Syntax                             | Input                                    | Output           |
 |-------------------------------------|------------------------------------|------------------------------------------|------------------|
