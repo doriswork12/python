@@ -1,7 +1,5 @@
 ## Progress
 
-## Progress
-
 ---
 
 | # | Topic                    | Online Courses                                                                                              | Detail               | Date | Note | Remark                                   |
